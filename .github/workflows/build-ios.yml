@@ -15,14 +15,21 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Mobile Tools
+      - name: Install Mobile Tools Dependencies
         run: |
-          npm install @capacitor/cli@6 @capacitor/core@6
+          npm install @capacitor/core@6 @capacitor/cli@6 @capacitor/ios@6
+
+      - name: Initialize Mobile App Container
+        run: |
           npx cap init KYUPRMIX com.kyuperdomo.kyuprmix --web-dir=.
+
+      - name: Create Native iOS Framework
+        run: |
           npx cap add ios
 
       - name: Sync Web Code to App Container
-        run: npx cap sync ios
+        run: |
+          npx cap sync ios
 
       - name: Compile and Build App Archive
         run: |
