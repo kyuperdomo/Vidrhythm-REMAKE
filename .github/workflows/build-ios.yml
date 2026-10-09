@@ -1,1 +1,46 @@
-name:%20Build%20iOS%20IPA%0Aon%3A%0A%20%20push%3A%0A%20%20%20%20branches%3A%20%5B%20main%20%5D%0A%0Ajobs%3A%0A%20%20build-project%3A%0A%20%20%20%20runs-on%3A%20macos-latest%0A%20%20%20%20steps%3A%0A%20%20%20%20%20%20-%20name%3A%20Checkout%20Source%20Code%0A%20%20%20%20%20%20%20%20uses%3A%20actions/checkout@v4%0A%0A%20%20%20%20%20%20-%20name:%20Setup%20Node.js%20Environment%0A%20%20%20%20%20%20%20%20uses:%20actions/setup-node@v4%0A%20%20%20%20%20%20%20%20with:%0A%20%20%20%20%20%20%20%20%20%20node-version:%2018%0A%0A%20%20%20%20%20%20-%20name:%20Install%20Mobile%20Tools%0A%20%20%20%20%20%20%20%20run:%20%7C%0A%20%20%20%20%20%20%20%20%20%20npm%20install%20@capacitor/cli%20@capacitor/core%0A%20%20%20%20%20%20%20%20%20%20npx%20cap%20init%20KYUPRMIX%20com.kyuprmix.remake%20--web-dir=.%0A%20%20%20%20%20%20%20%20%20%20npx%20cap%20add%20ios%0A%0A%20%20%20%20%20%20-%20name:%20Sync%20Web%20Code%20to%20App%20Container%0A%20%20%20%20%20%20%20%20run:%20npx%20cap%20sync%20ios%0A%0A%20%20%20%20%20%20-%20name:%20Compile%20and%20Build%20App%20Archive%0A%20%20%20%20%20%20%20%20run:%20%7C%0A%20%20%20%20%20%20%20%20%20%20xcodebuild%20-workspace%20ios/App/App.xcworkspace%20%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20-scheme%20App%20%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20-sdk%20iphoneos%20%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20-configuration%20Debug%20%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20-allowProvisioningUpdates%20%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20CODE_SIGNING_ALLOWED=NO%0A%0A%20%20%20%20%20%20-%20name:%20Compress%20into%20IPA%20Format%0A%20%20%20%20%20%20%20%20run:%20%7C%0A%20%20%20%20%20%20%20%20%20%20mkdir%20-p%20Payload%0A%20%20%20%20%20%20%20%20%20%20mv%20ios/App/build/Debug-iphoneos/App.app%20Payload/%0A%20%20%20%20%20%20%20%20%20%20zip%20-r%20KyuprMix.ipa%20Payload%0A%0A%20%20%20%20%20%20-%20name:%20Save%20IPA%20File%20to%20GitHub%0A%20%20%20%20%20%20%20%20uses:%20actions/upload-artifact@v4%0A%20%20%20%20%20%20%20%20with:%0A%20%20%20%20%20%20%20%20%20%20name:%20KyuprMix-App-Build%0A%20%20%20%20%20%20%20%20%20%20path:%20KyuprMix.ipa%0A
+name: Build iOS IPA
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-project:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Mobile Tools
+        run: |
+          npm install @capacitor/cli@6 @capacitor/core@6
+          npx cap init KYUPRMIX com.kyuperdomo.kyuprmix --web-dir=.
+          npx cap add ios
+
+      - name: Sync Web Code to App Container
+        run: npx cap sync ios
+
+      - name: Compile and Build App Archive
+        run: |
+          xcodebuild -workspace ios/App/App.xcworkspace \
+            -scheme App \
+            -sdk iphoneos \
+            -configuration Debug \
+            -allowProvisioningUpdates \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Compress into IPA Format
+        run: |
+          mkdir -p Payload
+          mv ios/App/build/Debug-iphoneos/App.app Payload/
+          zip -r KyuprMix.ipa Payload
+
+      - name: Save IPA File to GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: KyuprMix-App-Build
+          path: KyuprMix.ipa
