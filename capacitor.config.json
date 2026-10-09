@@ -1,0 +1,6 @@
+{
+  "appId": "com.kyuperdomo.kyuprmix",
+  "appName": "KYUPRMIX",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}

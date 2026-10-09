@@ -1,0 +1,14 @@
+{
+  "name": "kyuprmix-beta",
+  "version": "0.1",
+  "description": "Vidrhythm remake.",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Web files ready'"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  }
+}
