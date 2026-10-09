@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Dance</string>
+	<key>Name</key>
+	<string>Miami</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Make a low drum sound, like &quot;BOM!&quot;</string>
+			<key>Name</key>
+			<string>Bass Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a tight drum sound, like &quot;CHK!&quot;</string>
+			<key>Name</key>
+			<string>Snare Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a cymbal sound, like &quot;PSHH!&quot;</string>
+			<key>Name</key>
+			<string>Cymbal</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;MY&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;Mi-&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>62</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;AM&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;-Am-&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>62</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;EEE&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;-I&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>62</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

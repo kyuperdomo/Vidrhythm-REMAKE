@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Doo Wop</string>
+	<key>Name</key>
+	<string>Moon Pie</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;Boom&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>58</string>
+			<key>Name</key>
+			<string>Bass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>58</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a short &quot;BOP&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>70</string>
+			<key>Name</key>
+			<string>&quot;Bop&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>58</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;AHH&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>70</string>
+			<key>Name</key>
+			<string>&quot;Ahh&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>58</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;OOH&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>70</string>
+			<key>Name</key>
+			<string>&quot;Ooh&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>58</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;OH&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>70</string>
+			<key>Name</key>
+			<string>&quot;Oh&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>58</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Snap your fingers.</string>
+			<key>Name</key>
+			<string>Snap</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

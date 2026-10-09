@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>dog_bg06.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>329.974626159668</real>
+					<key>height</key>
+					<real>330.0334167480469</real>
+					<key>x offset</key>
+					<real>-0.009482574462879256</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>329.99359130859375</real>
+					<key>height</key>
+					<real>330.0334167480469</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>838.4467956542969</real>
+					<key>y</key>
+					<real>355.98329162597656</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>330.0675468444824</real>
+					<key>height</key>
+					<real>330.0334167480469</real>
+					<key>x offset</key>
+					<real>-0.009485244750976562</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>330.0865173339844</real>
+					<key>height</key>
+					<real>330.0334167480469</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>178.4432586669922</real>
+					<key>y</key>
+					<real>356.7832916259765</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

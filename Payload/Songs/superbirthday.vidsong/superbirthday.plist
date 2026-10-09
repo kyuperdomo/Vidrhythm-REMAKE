@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Peter Moore</string>
+	<key>Genre</key>
+	<string>Novelty</string>
+	<key>Name</key>
+	<string>Super Birthday</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Make a low drum sound, like &quot;BOM!&quot;</string>
+			<key>Name</key>
+			<string>Bass Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a tight drum sound, like &quot;CHK!&quot;</string>
+			<key>Name</key>
+			<string>Snare Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Happy.&quot;</string>
+			<key>Name</key>
+			<string>&quot;Happy&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;Birthday&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>&quot;Birthday&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>48</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say the birthday person&apos;s name!</string>
+			<key>Name</key>
+			<string>Name</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Yell, &quot;Woot!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Woot&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

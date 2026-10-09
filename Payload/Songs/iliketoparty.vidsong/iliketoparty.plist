@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Pop</string>
+	<key>Name</key>
+	<string>I Like To Party</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;I&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;I&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>50</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;Like&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;Like&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>50</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;To&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;To&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>50</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;Party&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>&quot;Party&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>50</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Woo!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Woo&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Clap your hands.</string>
+			<key>Name</key>
+			<string>Clap</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

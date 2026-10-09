@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Samples</key>
+	<array>
+		<array>
+			<dict>
+				<key>max scale</key>
+				<string>1.2</string>
+				<key>min scale</key>
+				<string>0.8</string>
+				<key>type</key>
+				<string>scale</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>max scale</key>
+				<string>1.2</string>
+				<key>min scale</key>
+				<string>0.8</string>
+				<key>type</key>
+				<string>scale</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>max scale</key>
+				<string>1.2</string>
+				<key>min scale</key>
+				<string>0.8</string>
+				<key>type</key>
+				<string>scale</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>max scale</key>
+				<string>1.2</string>
+				<key>min scale</key>
+				<string>0.8</string>
+				<key>type</key>
+				<string>scale</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>max scale</key>
+				<string>1.2</string>
+				<key>min scale</key>
+				<string>0.8</string>
+				<key>type</key>
+				<string>scale</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>max scale</key>
+				<string>1.2</string>
+				<key>min scale</key>
+				<string>0.8</string>
+				<key>type</key>
+				<string>scale</string>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

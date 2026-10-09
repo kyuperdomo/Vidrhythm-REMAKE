@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>fishmcgill-vrbg02.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>fishmcgill-vrframes-01.png</string>
+					<key>width</key>
+					<real>360.70501403808595</real>
+					<key>height</key>
+					<real>357.1520278930664</real>
+					<key>x offset</key>
+					<real>4.545439147949224</real>
+					<key>y offset</key>
+					<real>-2.306126403808591</real>
+				</dict>
+				<key>mask</key>
+				<string>fishmcgill-vrframes-01mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>225.3936767578125</real>
+					<key>height</key>
+					<real>223.17352294921875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>278.0968383789062</real>
+					<key>y</key>
+					<real>561.2132385253906</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>fishmcgill-vrframes-01.png</string>
+					<key>width</key>
+					<real>360.5584991455078</real>
+					<key>height</key>
+					<real>357.17400512695315</real>
+					<key>x offset</key>
+					<real>4.543592834472662</real>
+					<key>y offset</key>
+					<real>-2.3062683105468835</real>
+				</dict>
+				<key>mask</key>
+				<string>fishmcgill-vrframes-01mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>225.3021240234375</real>
+					<key>height</key>
+					<real>223.187255859375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>278.15106201171875</real>
+					<key>y</key>
+					<real>198.4063720703125</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>fishmcgill-vrframes-02.png</string>
+					<key>width</key>
+					<real>360.60977935791016</real>
+					<key>height</key>
+					<real>357.17400512695315</real>
+					<key>x offset</key>
+					<real>4.544239044189453</real>
+					<key>y offset</key>
+					<real>-2.3062683105468835</real>
+				</dict>
+				<key>mask</key>
+				<string>fishmcgill-vrframes-01mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>225.33416748046875</real>
+					<key>height</key>
+					<real>223.187255859375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>751.5670837402344</real>
+					<key>y</key>
+					<real>561.2063720703125</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>fishmcgill-vrframes-02.png</string>
+					<key>width</key>
+					<real>360.60977935791016</real>
+					<key>height</key>
+					<real>357.17400512695315</real>
+					<key>x offset</key>
+					<real>4.544239044189453</real>
+					<key>y offset</key>
+					<real>-2.3062683105468835</real>
+				</dict>
+				<key>mask</key>
+				<string>fishmcgill-vrframes-01mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>225.33416748046875</real>
+					<key>height</key>
+					<real>223.187255859375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>751.5670837402344</real>
+					<key>y</key>
+					<real>198.4063720703125</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

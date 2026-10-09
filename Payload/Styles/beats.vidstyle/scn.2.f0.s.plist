@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>background.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>515</real>
+					<key>height</key>
+					<real>515</real>
+					<key>x offset</key>
+					<real>22.525000000000006</real>
+					<key>y offset</key>
+					<real>27.474999999999994</real>
+				</dict>
+				<key>mask</key>
+				<string>mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>329.95</real>
+					<key>height</key>
+					<real>329.95</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>230.77499999999998</real>
+					<key>y</key>
+					<real>369.17499999999995</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>515</real>
+					<key>height</key>
+					<real>515</real>
+					<key>x offset</key>
+					<real>22.525000000000006</real>
+					<key>y offset</key>
+					<real>27.474999999999994</real>
+				</dict>
+				<key>mask</key>
+				<string>mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>329.95</real>
+					<key>height</key>
+					<real>329.95</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>740.775</real>
+					<key>y</key>
+					<real>369.17499999999995</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

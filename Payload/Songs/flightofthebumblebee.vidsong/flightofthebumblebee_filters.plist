@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Master</key>
+	<array>
+		<dict>
+			<key>attack</key>
+			<integer>1</integer>
+			<key>gainmakeup</key>
+			<integer>0</integer>
+			<key>release</key>
+			<integer>300</integer>
+			<key>threshold</key>
+			<integer>-2</integer>
+			<key>type</key>
+			<string>compressor</string>
+		</dict>
+	</array>
+	<key>Samples</key>
+	<array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+	</array>
+</dict>
+</plist>

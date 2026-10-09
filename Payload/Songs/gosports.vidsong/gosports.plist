@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Beats</string>
+	<key>Name</key>
+	<string>GO SPORTS!</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Stomp your feet.</string>
+			<key>Name</key>
+			<string>Stomp</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Clap your hands.</string>
+			<key>Name</key>
+			<string>Clap</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Go!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Go&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say the name of your team&apos;s city.</string>
+			<key>Name</key>
+			<string>City</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say the name of your team.</string>
+			<key>Name</key>
+			<string>Team Name</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Win!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Win&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

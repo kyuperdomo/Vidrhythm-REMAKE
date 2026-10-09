@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>dc_bg06.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>DC_frame_blue.png</string>
+					<key>width</key>
+					<real>375.3016662597656</real>
+					<key>height</key>
+					<real>375.34149169921875</real>
+					<key>x offset</key>
+					<real>0</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>DC_frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>375.3016662597656</real>
+					<key>height</key>
+					<real>375.34149169921875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>783.1008331298829</real>
+					<key>y</key>
+					<real>383.8792541503906</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>DC_frame_blue.png</string>
+					<key>width</key>
+					<real>375.3282165527344</real>
+					<key>height</key>
+					<real>370.45623779296875</real>
+					<key>x offset</key>
+					<real>0</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>DC_frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>375.3282165527344</real>
+					<key>height</key>
+					<real>370.45623779296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>243.11410827636718</real>
+					<key>y</key>
+					<real>384.3218811035156</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

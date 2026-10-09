@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>color_tv_background.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>504.8509872436523</real>
+					<key>height</key>
+					<real>378.4723434448242</real>
+					<key>x offset</key>
+					<real>52.22001571655271</real>
+					<key>y offset</key>
+					<real>-2.057048797607422</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>330.2256774902344</real>
+					<key>height</key>
+					<real>330.11322021484375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>204.1628387451172</real>
+					<key>y</key>
+					<real>580.8433898925781</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>504.8509872436523</real>
+					<key>height</key>
+					<real>378.4723434448242</real>
+					<key>x offset</key>
+					<real>52.22001571655271</real>
+					<key>y offset</key>
+					<real>-2.057048797607422</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>330.2256774902344</real>
+					<key>height</key>
+					<real>330.11322021484375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>711.0628387451172</real>
+					<key>y</key>
+					<real>580.7933898925781</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>357.30846252441404</real>
+					<key>y</key>
+					<real>291.60240478515624</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>101.80846252441407</real>
+					<key>y</key>
+					<real>291.60240478515624</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>613.708462524414</real>
+					<key>y</key>
+					<real>291.60240478515624</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>869.1084625244141</real>
+					<key>y</key>
+					<real>291.60240478515624</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>3</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5126281738281</real>
+					<key>height</key>
+					<real>192.787646484375</real>
+					<key>x offset</key>
+					<real>26.532766723632793</real>
+					<key>y offset</key>
+					<real>-1.047827148437495</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.7862548828125</real>
+					<key>height</key>
+					<real>168.154296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>869.0931274414063</real>
+					<key>y</key>
+					<real>96.9228515625</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>3</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>613.708462524414</real>
+					<key>y</key>
+					<real>96.90240478515625</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>3</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>357.30846252441404</real>
+					<key>y</key>
+					<real>96.90240478515625</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>3</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>256.5595169067383</real>
+					<key>height</key>
+					<real>192.83453063964842</real>
+					<key>x offset</key>
+					<real>26.537616729736328</real>
+					<key>y offset</key>
+					<real>-1.0480819702148363</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>167.81692504882812</real>
+					<key>height</key>
+					<real>168.1951904296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>101.80846252441407</real>
+					<key>y</key>
+					<real>96.90240478515625</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

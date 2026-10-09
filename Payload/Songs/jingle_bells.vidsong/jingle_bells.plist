@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By James Lord Pierpont</string>
+	<key>Genre</key>
+	<string>Holiday</string>
+	<key>Name</key>
+	<string>Jingle Bells</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Make a low drum sound, like &quot;BOM!&quot;</string>
+			<key>Name</key>
+			<string>Bass Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a tight drum sound, like &quot;CHK!&quot;</string>
+			<key>Name</key>
+			<string>Snare Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;HO!&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>Bass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Guide Note</key>
+			<string>67</string>
+			<key>Root Note</key>
+			<string>43</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;JING!&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;Jing!&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Guide Note</key>
+			<string>67</string>
+			<key>Root Note</key>
+			<string>55</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;-GLE!&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;-gle!&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Guide Note</key>
+			<string>67</string>
+			<key>Root Note</key>
+			<string>55</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;BELLS!&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;Bells!&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Guide Note</key>
+			<string>67</string>
+			<key>Root Note</key>
+			<string>55</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

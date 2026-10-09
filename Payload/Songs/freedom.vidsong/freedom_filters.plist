@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Master</key>
+	<array>
+		<dict>
+			<key>attack</key>
+			<integer>1</integer>
+			<key>gainmakeup</key>
+			<integer>0</integer>
+			<key>release</key>
+			<integer>300</integer>
+			<key>threshold</key>
+			<integer>-2</integer>
+			<key>type</key>
+			<string>compressor</string>
+		</dict>
+	</array>
+	<key>Samples</key>
+	<array>
+		<array>
+			<string>Yeah</string>
+			<integer>-9</integer>
+		</array>
+		<array>
+			<string>Snap</string>
+			<integer>-5</integer>
+			<dict>
+				<key>decayratio</key>
+				<real>0.7</real>
+				<key>delay</key>
+				<integer>281</integer>
+				<key>drymix</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>echo</string>
+				<key>wetmix</key>
+				<string>cc00 0 0.8</string>
+			</dict>
+		</array>
+		<array>
+			<string>Freedom</string>
+			<integer>-5</integer>
+			<dict>
+				<key>decayratio</key>
+				<string>cc02 0 0.7</string>
+				<key>delay</key>
+				<integer>281</integer>
+				<key>drymix</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>echo</string>
+				<key>wetmix</key>
+				<string>cc01 0 0.8</string>
+			</dict>
+			<dict>
+				<key>decayratio</key>
+				<string>cc04 0 0.7</string>
+				<key>delay</key>
+				<integer>25</integer>
+				<key>drymix</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>echo</string>
+				<key>wetmix</key>
+				<string>cc03 0 0.7</string>
+			</dict>
+		</array>
+		<array>
+			<string>Tom</string>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<string>Bass</string>
+			<integer>-16</integer>
+			<dict>
+				<key>level</key>
+				<real>0.65</real>
+				<key>type</key>
+				<string>distortion</string>
+			</dict>
+		</array>
+		<array>
+			<integer>-18</integer>
+			<string>Bass 1</string>
+			<dict>
+				<key>level</key>
+				<real>0.65</real>
+				<key>type</key>
+				<string>distortion</string>
+			</dict>
+			<dict>
+				<key>cutoff</key>
+				<integer>40</integer>
+				<key>resonance</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>highpass</string>
+			</dict>
+			<dict>
+				<key>bandwidth</key>
+				<integer>2</integer>
+				<key>center</key>
+				<integer>65</integer>
+				<key>gain</key>
+				<integer>3</integer>
+				<key>type</key>
+				<string>eq</string>
+			</dict>
+			<dict>
+				<key>cutoff</key>
+				<integer>400</integer>
+				<key>resonance</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>lowpass</string>
+			</dict>
+		</array>
+		<array>
+			<string>Guitar</string>
+			<integer>-9</integer>
+		</array>
+	</array>
+</dict>
+</plist>

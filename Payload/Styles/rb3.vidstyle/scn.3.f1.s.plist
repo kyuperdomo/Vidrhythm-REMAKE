@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>rb3_bg03.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>680.8550148010254</real>
+					<key>height</key>
+					<real>680.6957038879394</real>
+					<key>x offset</key>
+					<real>5.497392654418945</real>
+					<key>y offset</key>
+					<real>5.496106338500965</real>
+				</dict>
+				<key>mask</key>
+				<string>frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>669.8602294921875</real>
+					<key>height</key>
+					<real>669.7034912109375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>358.68011474609375</real>
+					<key>y</key>
+					<real>394.64825439453125</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>294.6189819335937</real>
+					<key>height</key>
+					<real>294.52605056762695</real>
+					<key>x offset</key>
+					<real>3.394696044921858</real>
+					<key>y offset</key>
+					<real>3.393625259399414</real>
+				</dict>
+				<key>mask</key>
+				<string>frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>287.82958984375</real>
+					<key>height</key>
+					<real>287.7388000488281</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>857.314794921875</real>
+					<key>y</key>
+					<real>246.63059997558594</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>3</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>294.6189819335937</real>
+					<key>height</key>
+					<real>294.52605056762695</real>
+					<key>x offset</key>
+					<real>3.394696044921858</real>
+					<key>y offset</key>
+					<real>3.393625259399414</real>
+				</dict>
+				<key>mask</key>
+				<string>frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>287.82958984375</real>
+					<key>height</key>
+					<real>287.7388000488281</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>857.264794921875</real>
+					<key>y</key>
+					<real>542.1805999755859</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

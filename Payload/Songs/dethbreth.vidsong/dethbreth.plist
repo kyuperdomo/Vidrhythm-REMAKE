@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Metal</string>
+	<key>Name</key>
+	<string>Dëth Brëth</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Make a low drum sound, like &quot;BOM!&quot;</string>
+			<key>Name</key>
+			<string>Bass Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a tight drum sound, like &quot;CHK!&quot;</string>
+			<key>Name</key>
+			<string>Snare Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a cymbal sound, like &quot;PSHH!&quot;</string>
+			<key>Name</key>
+			<string>Cymbal</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a guitar sound to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Name</key>
+			<string>Guitar</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>50</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Scream in a high voice!</string>
+			<key>Name</key>
+			<string>High Scream</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Scream in a low voice!</string>
+			<key>Name</key>
+			<string>Low Scream</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

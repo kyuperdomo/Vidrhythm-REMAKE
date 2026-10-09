@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>fishmcgill-vrbg07.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>fishmcgill-vrframes-01.png</string>
+					<key>width</key>
+					<real>500.0992828369141</real>
+					<key>height</key>
+					<real>500.15788879394535</real>
+					<key>x offset</key>
+					<real>6.302021789550793</real>
+					<key>y offset</key>
+					<real>-3.2295135498047074</real>
+				</dict>
+				<key>mask</key>
+				<string>fishmcgill-vrframes-01mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>312.4969482421875</real>
+					<key>height</key>
+					<real>312.5335693359375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>764.5484741210937</real>
+					<key>y</key>
+					<real>392.5832153320313</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>fishmcgill-vrframes-01.png</string>
+					<key>width</key>
+					<real>500.0186996459961</real>
+					<key>height</key>
+					<real>493.4401809692383</real>
+					<key>x offset</key>
+					<real>6.301006317138672</real>
+					<key>y offset</key>
+					<real>-3.186137390136736</real>
+				</dict>
+				<key>mask</key>
+				<string>fishmcgill-vrframes-01mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>312.44659423828125</real>
+					<key>height</key>
+					<real>308.33587646484375</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>246.27329711914064</real>
+					<key>y</key>
+					<real>392.53206176757817</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

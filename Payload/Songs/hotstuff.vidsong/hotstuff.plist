@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Jazz</string>
+	<key>Name</key>
+	<string>Hot Stuff</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Hot!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Hot&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Stuff!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Stuff&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;BOOM&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>Bass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;OOH&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>72</string>
+			<key>Name</key>
+			<string>Brass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing a long &quot;EHH&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>72</string>
+			<key>Name</key>
+			<string>Sax</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Snap your fingers.</string>
+			<key>Name</key>
+			<string>Snap</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

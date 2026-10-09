@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Bill Whitney</string>
+	<key>Genre</key>
+	<string>Rock</string>
+	<key>Name</key>
+	<string>Rock Down!</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Make a low drum sound, like &quot;BOM!&quot;</string>
+			<key>Name</key>
+			<string>Bass Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a tight drum sound, like &quot;CHK!&quot;</string>
+			<key>Name</key>
+			<string>Snare Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a cymbal sound, like &quot;PSHH!&quot;</string>
+			<key>Name</key>
+			<string>Cymbal</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Root Note</key>
+			<string>62</string>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Description</key>
+			<string>Sing &quot;ZZZ&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>Melody</string>
+			<key>Pitched</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Guide Note</key>
+			<string>62</string>
+			<key>Root Note</key>
+			<string>50</string>
+			<key>Description</key>
+			<string>Sing &quot;RRR&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>Guitar</string>
+			<key>Pitched</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Guide Note</key>
+			<string>74</string>
+			<key>Root Note</key>
+			<string>62</string>
+			<key>Description</key>
+			<string>Sing &quot;EEE&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>Solo</string>
+			<key>Pitched</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

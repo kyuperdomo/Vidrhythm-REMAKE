@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Beats</string>
+	<key>Name</key>
+	<string>D-O-G-S</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Dogs!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Dogs&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;D.&quot;</string>
+			<key>Name</key>
+			<string>&quot;D&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;O.&quot;</string>
+			<key>Name</key>
+			<string>&quot;O&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;G.&quot;</string>
+			<key>Name</key>
+			<string>&quot;G&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;S.&quot;</string>
+			<key>Name</key>
+			<string>&quot;S&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Bark like a dog!</string>
+			<key>Name</key>
+			<string>Ruff</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

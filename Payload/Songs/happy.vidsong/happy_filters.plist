@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Master</key>
+	<array>
+		<string>happy</string>
+		<dict>
+			<key>preset</key>
+			<string>room</string>
+			<key>type</key>
+			<string>reverb</string>
+		</dict>
+		<dict>
+			<key>attack</key>
+			<integer>1</integer>
+			<key>gainmakeup</key>
+			<integer>0</integer>
+			<key>release</key>
+			<integer>300</integer>
+			<key>threshold</key>
+			<integer>-2</integer>
+			<key>type</key>
+			<string>compressor</string>
+		</dict>
+	</array>
+	<key>Samples</key>
+	<array>
+		<array>
+			<integer>-6</integer>
+			<string>kick</string>
+		</array>
+		<array>
+			<integer>-7</integer>
+			<string>kick 1</string>
+		</array>
+		<array>
+			<integer>-6</integer>
+			<string>snare</string>
+		</array>
+		<array>
+			<integer>-6</integer>
+			<string>snare 1</string>
+		</array>
+		<array>
+			<integer>-7</integer>
+			<string>snare 2</string>
+		</array>
+		<array>
+			<string>bass</string>
+			<integer>-9</integer>
+		</array>
+		<array>
+			<string>bass 1</string>
+			<integer>-9</integer>
+		</array>
+		<array>
+			<string>Mel 2</string>
+			<integer>-8</integer>
+		</array>
+		<array>
+			<string>Mel 2 1</string>
+			<integer>-13</integer>
+		</array>
+		<array>
+			<string>Mel 2 2</string>
+			<integer>-13</integer>
+		</array>
+		<array>
+			<string>Mel 1</string>
+			<integer>-6</integer>
+		</array>
+		<array>
+			<string>Mel 1 1</string>
+			<integer>-10</integer>
+		</array>
+		<array>
+			<string>Mel 1 2</string>
+			<integer>-10</integer>
+		</array>
+		<array>
+			<integer>-13</integer>
+			<string>Mel 3</string>
+		</array>
+		<array>
+			<string>Mel 3 1</string>
+			<integer>-15</integer>
+		</array>
+		<array>
+			<string>Mel 3 2</string>
+			<integer>-19</integer>
+		</array>
+	</array>
+</dict>
+</plist>

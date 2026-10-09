@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYUPRMIX REMAKE</title>
+    <style>
+        body { 
+            /* This grabs the background asset directly from your main file list! */
+            background-image: url('Default-Portrait~ipad.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+
+        .game-booth {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7); 
+            padding: 30px;
+            border-radius: 24px;
+            width: 85%;
+            max-width: 360px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+        }
+
+        .action-btn {
+            background: #ff3b30;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            padding: 14px;
+            border-radius: 12px;
+            box-shadow: 0 5px 0 #b3241c;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .action-btn:active {
+            transform: translateY(3px);
+            box-shadow: 0 2px 0 #b3241c;
+        }
+
+        /* Central VidRhythm Style Play Button */
+        .central-play-btn {
+            background: #26dd54;
+            color: black;
+            font-size: 22px;
+            box-shadow: 0 6px 0 #117025;
+        }
+        .central-play-btn:active {
+            transform: translateY(4px);
+            box-shadow: 0 2px 0 #117025;
+        }
+
+        .status-txt {
+            font-size: 14px;
+            color: #aaa;
+            margin: 10px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="game-booth">
+        <h2 style="margin: 0 0 5px 0; letter-spacing: 2px; color: #DDA126;">KYUPRMIX</h2>
+        <div class="status-txt" id="prompt-box">PROMPT: Say "YEAH!"</div>
+        
+        <!-- Record Button -->
+        <button class="action-btn" id="rec-btn" onclick="startVoiceRecording()">Record Sample</button>
+        
+        <!-- THE CENTRAL PLAY BUTTON -->
+        <button class="action-btn central-play-btn" id="play-btn" onclick="startRhythmSequencer()" disabled style="opacity: 0.5;">
+            ▶ PLAY REMIX
+        </button>
+    </div>
+
+    <script>
+        let audioRecorder;
+        let audioChunks = [];
+        let recordedAudioURL = null;
+        
+        // Request microphone stream permission from iPad Safari
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(stream => {
+                audioRecorder = new MediaRecorder(stream);
+                
+                audioRecorder.ondataavailable = e => {
+                    if (e.data.size > 0) audioChunks.push(e.data);
+                };
+                
+                audioRecorder.onstop = () => {
+                    let audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    audioChunks = [];
+                    recordedAudioURL = URL.createObjectURL(audioBlob);
+                    
+                    document.getElementById('prompt-box').innerText = "Sample Recorded Successfully!";
+                    let playBtn = document.getElementById('play-btn');
+                    playBtn.disabled = false;
+                    playBtn.style.opacity = "1";
+                };
+            }).catch(err => {
+                document.getElementById('prompt-box').innerText = "Mic blocked. Check Safari Settings.";
+            });
+
+        function startVoiceRecording() {
+            if (!audioRecorder) return;
+            audioChunks = [];
+            audioRecorder.start();
+            document.getElementById('rec-btn').innerText = "🎤 RECORDING...";
+            
+            setTimeout(() => {
+                audioRecorder.stop();
+                document.getElementById('rec-btn').innerText = "Record Sample";
+            }, 1500); // Caps it at 1.5 seconds just like the original app
+        }
+
+        function startRhythmSequencer() {
+            if (!recordedAudioURL) return;
+            
+            // Starts an automated timing loop that fires off your voice sample repeatedly
+            setInterval(() => {
+                let sampleInstance = new Audio(recordedAudioURL);
+                sampleInstance.play();
+            }, 800); // 800ms grid step interval
+            
+            document.getElementById('prompt-box').innerText = "🎛️ Remix Looping Live!";
+        }
+    </script>
+
+</body>
+</html>

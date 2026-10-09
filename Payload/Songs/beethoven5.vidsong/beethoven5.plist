@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Ludwig van Beethoven</string>
+	<key>Genre</key>
+	<string>Classical</string>
+	<key>Name</key>
+	<string>Symphony No. 5, 1st Movement</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>72</string>
+			<key>Name</key>
+			<string>Soprano</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>72</string>
+			<key>Name</key>
+			<string>Alto</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>48</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>Tenor</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>48</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>Bass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>36</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a drum sound to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>Timpani</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>36</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a cymbal sound, like &quot;PSHH!&quot;</string>
+			<key>Name</key>
+			<string>Cymbal</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

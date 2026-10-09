@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Make your videos bounce to the beat in this groovy style!</string>
+	<key>Missing Image</key>
+	<string>missing.png</string>
+	<key>Name</key>
+	<string>15 Vid-Rhythmic</string>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Absent Image</key>
+	<string>absent.png</string>
+</dict>
+</plist>

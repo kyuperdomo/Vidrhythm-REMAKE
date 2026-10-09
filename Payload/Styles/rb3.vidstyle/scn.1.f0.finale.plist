@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>rb3_bg01.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>375.3232353210449</real>
+					<key>height</key>
+					<real>375.3630630493164</real>
+					<key>x offset</key>
+					<real>3.030453109741188</real>
+					<key>y offset</key>
+					<real>3.0307746887206974</real>
+				</dict>
+				<key>mask</key>
+				<string>frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>369.2623291015625</real>
+					<key>height</key>
+					<real>369.301513671875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>698.9811645507813</real>
+					<key>y</key>
+					<real>284.9992431640625</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>frame.png</string>
+					<key>width</key>
+					<real>375.34978713989256</real>
+					<key>height</key>
+					<real>370.4775283813476</real>
+					<key>x offset</key>
+					<real>3.0306674957275277</real>
+					<key>y offset</key>
+					<real>2.9913276672363054</real>
+				</dict>
+				<key>mask</key>
+				<string>frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>369.2884521484375</real>
+					<key>height</key>
+					<real>364.494873046875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>273.34422607421874</real>
+					<key>y</key>
+					<real>528.4525634765625</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

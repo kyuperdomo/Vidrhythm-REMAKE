@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>dc_bg04.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>DC_frame_blue.png</string>
+					<key>width</key>
+					<real>506.1016845703125</real>
+					<key>height</key>
+					<real>505.9556579589844</real>
+					<key>x offset</key>
+					<real>0</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>DC_frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>506.1016845703125</real>
+					<key>height</key>
+					<real>505.9556579589844</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>510.00084228515624</real>
+					<key>y</key>
+					<real>499.97217102050786</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>DC_frame_pink.png</string>
+					<key>width</key>
+					<real>232.79296875</real>
+					<key>height</key>
+					<real>232.79296875</real>
+					<key>x offset</key>
+					<real>0</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>DC_frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>232.79296875</real>
+					<key>height</key>
+					<real>232.79296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>294.796484375</real>
+					<key>y</key>
+					<real>130.65351562499995</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>3</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>DC_frame_blue.png</string>
+					<key>width</key>
+					<real>232.79296875</real>
+					<key>height</key>
+					<real>232.79296875</real>
+					<key>x offset</key>
+					<real>0</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>DC_frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>232.79296875</real>
+					<key>height</key>
+					<real>232.79296875</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>530.746484375</real>
+					<key>y</key>
+					<real>132.75351562499998</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>4</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>DC_frame_pink.png</string>
+					<key>width</key>
+					<real>232.7398681640625</real>
+					<key>height</key>
+					<real>232.70004272460938</real>
+					<key>x offset</key>
+					<real>0</real>
+					<key>y offset</key>
+					<real>0</real>
+				</dict>
+				<key>mask</key>
+				<string>DC_frame_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>232.7398681640625</real>
+					<key>height</key>
+					<real>232.70004272460938</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>766.0199340820312</real>
+					<key>y</key>
+					<real>131.99997863769534</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

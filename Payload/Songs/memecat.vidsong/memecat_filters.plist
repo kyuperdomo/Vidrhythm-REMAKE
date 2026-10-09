@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Master</key>
+	<array>
+		<string>meow</string>
+		<dict>
+			<key>attack</key>
+			<integer>1</integer>
+			<key>gainmakeup</key>
+			<integer>0</integer>
+			<key>release</key>
+			<integer>300</integer>
+			<key>threshold</key>
+			<integer>-2</integer>
+			<key>type</key>
+			<string>compressor</string>
+		</dict>
+	</array>
+	<key>Samples</key>
+	<array>
+		<array>
+			<string>kick</string>
+			<real>-7.5</real>
+		</array>
+		<array>
+			<string>kick 1</string>
+			<real>-7.5</real>
+		</array>
+		<array>
+			<real>-7.5</real>
+			<string>snare</string>
+		</array>
+		<array>
+			<string>tom</string>
+			<real>-7.5</real>
+		</array>
+		<array>
+			<real>-7.5</real>
+			<string>hiss</string>
+		</array>
+		<array>
+			<real>-4.5</real>
+			<string>purr</string>
+		</array>
+		<array>
+			<real>-6.5</real>
+			<string>meow</string>
+		</array>
+		<array>
+			<real>-10.5</real>
+			<string>meow 1</string>
+		</array>
+		<array>
+			<real>-10.5</real>
+			<string>meow 2</string>
+			<dict>
+				<key>cutoff</key>
+				<integer>40</integer>
+				<key>resonance</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>highpass</string>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

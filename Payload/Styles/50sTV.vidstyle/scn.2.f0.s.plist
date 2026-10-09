@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>50s_tv_background.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>50s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>512.0026931762695</real>
+					<key>height</key>
+					<real>383.99627380371095</real>
+					<key>x offset</key>
+					<real>58.83891677856445</real>
+					<key>y offset</key>
+					<real>-3.046783447265632</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>308.79638671875</real>
+					<key>height</key>
+					<real>308.74072265625</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>450.398193359375</real>
+					<key>y</key>
+					<real>579.229638671875</real>
+				</dict>
+			</dict>
+			<dict>
+				<key>sample</key>
+				<integer>2</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>50s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>512.0026931762695</real>
+					<key>height</key>
+					<real>383.99627380371095</real>
+					<key>x offset</key>
+					<real>58.83891677856445</real>
+					<key>y offset</key>
+					<real>-3.046783447265632</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>308.79638671875</real>
+					<key>height</key>
+					<real>308.74072265625</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>450.398193359375</real>
+					<key>y</key>
+					<real>195.22963867187502</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

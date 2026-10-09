@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Robotkid and inter:sect</string>
+	<key>Genre</key>
+	<string>Electro</string>
+	<key>Name</key>
+	<string>I Am A Robot</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Sing a quick &quot;BOING&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;Boing!&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Guide Note</key>
+			<integer>60</integer>
+			<key>Root Note</key>
+			<integer>48</integer>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Chuk!&quot;</string>
+			<key>Name</key>
+			<string>&quot;Chuk&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Guide Note</key>
+			<integer>60</integer>
+			<key>Root Note</key>
+			<integer>48</integer>
+			<key>Description</key>
+			<string>Sing &quot;I&apos;m A&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;I&apos;m A&quot;</string>
+			<key>Pitched</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Root Note</key>
+			<integer>48</integer>
+			<key>Guide Note</key>
+			<integer>60</integer>
+			<key>Description</key>
+			<string>Sing &quot;RO&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;Ro&quot;</string>
+			<key>Pitched</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;BOT&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>&quot;-bot&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>48</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;BEEP!&quot; to the Guide Note.</string>
+			<key>Name</key>
+			<string>&quot;Beep!&quot;</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>48</string>
+			<key>Guide Note</key>
+			<string>60</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

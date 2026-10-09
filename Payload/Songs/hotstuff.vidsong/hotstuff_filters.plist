@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Master</key>
+	<array>
+		<string>hotstuff</string>
+		<dict>
+			<key>preset</key>
+			<string>room</string>
+			<key>type</key>
+			<string>reverb</string>
+		</dict>
+		<dict>
+			<key>attack</key>
+			<integer>1</integer>
+			<key>gainmakeup</key>
+			<integer>0</integer>
+			<key>release</key>
+			<integer>300</integer>
+			<key>threshold</key>
+			<integer>-2</integer>
+			<key>type</key>
+			<string>compressor</string>
+		</dict>
+	</array>
+	<key>Samples</key>
+	<array>
+		<array>
+			<dict>
+				<key>decayratio</key>
+				<real>0.4</real>
+				<key>delay</key>
+				<integer>200</integer>
+				<key>drymix</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>echo</string>
+				<key>wetmix</key>
+				<string>cc01 0 0.4</string>
+			</dict>
+			<integer>-6</integer>
+		</array>
+		<array>
+			<integer>-6</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<dict>
+				<key>decayratio</key>
+				<real>0.4</real>
+				<key>delay</key>
+				<integer>125</integer>
+				<key>drymix</key>
+				<integer>1</integer>
+				<key>type</key>
+				<string>echo</string>
+				<key>wetmix</key>
+				<real>0.3</real>
+			</dict>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-7</integer>
+		</array>
+		<array>
+			<integer>-4</integer>
+		</array>
+	</array>
+</dict>
+</plist>

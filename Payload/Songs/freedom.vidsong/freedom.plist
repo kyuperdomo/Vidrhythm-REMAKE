@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Steve Pardo</string>
+	<key>Genre</key>
+	<string>Reggae</string>
+	<key>Name</key>
+	<string>Freedom</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Whisper, &quot;Yeah.&quot;</string>
+			<key>Name</key>
+			<string>&quot;Yeah&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Snap your fingers.</string>
+			<key>Name</key>
+			<string>Snap</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Say, &quot;Freedom.&quot;</string>
+			<key>Name</key>
+			<string>&quot;Freedom&quot;</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a drum sound, like &quot;BAM!&quot;</string>
+			<key>Name</key>
+			<string>Tom Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>63</string>
+			<key>Name</key>
+			<string>Bass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>51</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing &quot;EEE!&quot; to the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>63</string>
+			<key>Name</key>
+			<string>Guitar</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>63</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

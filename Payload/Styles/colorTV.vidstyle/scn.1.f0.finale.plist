@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>image</key>
+			<string>color_tv_background.jpg</string>
+		</dict>
+		<key>targets</key>
+		<array>
+			<dict>
+				<key>sample</key>
+				<integer>1</integer>
+				<key>frame</key>
+				<dict>
+					<key>image</key>
+					<string>60s_TV_tvshell.png</string>
+					<key>width</key>
+					<real>1024.190592956543</real>
+					<key>height</key>
+					<real>758.1519538879394</real>
+					<key>x offset</key>
+					<real>105.93868331909182</real>
+					<key>y offset</key>
+					<real>-4.1206592559814155</real>
+				</dict>
+				<key>mask</key>
+				<string>50sTV_mask.png</string>
+				<key>dimensions</key>
+				<dict>
+					<key>width</key>
+					<real>669.9284362792969</real>
+					<key>height</key>
+					<real>661.2794494628906</real>
+				</dict>
+				<key>transformation</key>
+				<dict>
+					<key>rotation degrees</key>
+					<real>0</real>
+					<key>x</key>
+					<real>407.1642181396484</real>
+					<key>y</key>
+					<real>382.16027526855464</real>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

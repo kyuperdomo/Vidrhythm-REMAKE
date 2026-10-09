@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Artist</key>
+	<string>By Scott Joplin</string>
+	<key>Genre</key>
+	<string>Ragtime</string>
+	<key>Name</key>
+	<string>Maple Leaf Rag</string>
+	<key>Samples</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Shout, &quot;Woo!&quot;</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>&quot;Woo&quot;</string>
+			<key>Pitched</key>
+			<false/>
+			<key>Root Note</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>60</string>
+			<key>Name</key>
+			<string>Bass</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>48</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>72</string>
+			<key>Name</key>
+			<string>Alto</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Sing the Guide Note.</string>
+			<key>Guide Note</key>
+			<string>72</string>
+			<key>Name</key>
+			<string>Soprano</string>
+			<key>Pitched</key>
+			<true/>
+			<key>Root Note</key>
+			<string>72</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a low drum sound, like &quot;BOM!&quot;</string>
+			<key>Name</key>
+			<string>Bass Drum</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Make a cymbal sound, like &quot;PSHH!&quot;</string>
+			<key>Name</key>
+			<string>Cymbal</string>
+			<key>Pitched</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
